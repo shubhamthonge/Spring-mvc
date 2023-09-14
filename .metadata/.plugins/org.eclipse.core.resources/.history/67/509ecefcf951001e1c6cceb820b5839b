@@ -1,0 +1,6 @@
+package ODBC;
+import JDBC.*;
+
+public class Java {
+
+}

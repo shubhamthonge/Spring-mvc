@@ -1,0 +1,16 @@
+package com.tech;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Configuration Configurtion = new Configuration();
+		Configurtion.configure("hibernate.cfg.xml");
+		SessionFactory SeesionFactory = Configuration.buildSessionFactory();
+		Session Session = SessionFactory.openSession();
+	}
+
+}

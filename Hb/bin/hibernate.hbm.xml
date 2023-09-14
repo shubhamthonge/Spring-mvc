@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class  name= "com.tech.player" table="player_db">
+	<id name="age" column="page"></id>
+	<property name="name" column="pname"></property>
+    <property name="team" column="pteam"></property>
+	
+	</class>
+
+</hibernate-mapping>
+

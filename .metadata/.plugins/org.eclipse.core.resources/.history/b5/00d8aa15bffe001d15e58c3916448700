@@ -1,0 +1,11 @@
+package com.tech;
+
+public class EmployeeServlet {
+
+	public EmployeeServlet() {
+		System.out.println("inside the constr");
+	}
+	
+	
+
+}

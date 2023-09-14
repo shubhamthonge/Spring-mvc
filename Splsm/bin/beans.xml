@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	<bean id ="a" class="com.tech.employee">
+	<property name="name" value="shubham"></property>
+		
+	<property name="Addr">
+	<list>
+	<value>pune</value>
+	<value>mumbai</value>
+	<value>nasik</value>
+	</list>
+	</property>
+		
+	<property name="phoneno" >
+	<set>
+	<value>123654</value>
+	<value>852147</value>
+	<value>159357</value>
+	</set>
+	</property>
+	<property name="email">
+	<map>
+	<entry key="1"><value>ach@gmail.com</value></entry>
+	<entry key="2"><value>zdf@gmail.com</value> </entry>
+	<entry key="3"><value>sck@gmail.com</value></entry>
+	</map>
+	</property>
+	</bean>
+	</beans>

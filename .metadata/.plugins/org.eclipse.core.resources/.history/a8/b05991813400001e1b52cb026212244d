@@ -1,0 +1,21 @@
+package com.tech;
+
+import java.io.IOException;
+import java.security.Provider.Service;
+import java.util.ServiceConfigurationError;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class jspservlet extends HttpServlet{
+
+	public jspservlet() {
+		System.out.println("inside jspservlet constr ");
+	}
+	
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		
+	}
+}

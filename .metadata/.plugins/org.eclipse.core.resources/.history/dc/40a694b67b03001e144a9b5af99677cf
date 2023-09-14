@@ -1,0 +1,12 @@
+package com.tech;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Configuration Configurtion =new Configuration();
+		Configuration.configure("hibernate.cfg.xml");
+		SessionFactory SessionFactory= Configuration.buildSessionFactory();
+		Session Session = SessionFactory.openSession();
+	}
+
+}

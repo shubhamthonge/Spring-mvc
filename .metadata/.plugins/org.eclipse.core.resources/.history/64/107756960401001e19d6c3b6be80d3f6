@@ -1,0 +1,10 @@
+package com.tech;
+
+import java.lang.module.Configuration;
+
+public class Result {
+
+	public static void main(String[] args) {
+		Configuration con= new Configuration();
+	}
+}

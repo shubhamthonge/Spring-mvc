@@ -1,0 +1,11 @@
+package ODBC.a;
+import JDBC.student;
+
+public class Snippet {
+	
+	public static void main(String[] args) {
+		Snippet S= new Snippet();
+		S.
+	}
+}
+

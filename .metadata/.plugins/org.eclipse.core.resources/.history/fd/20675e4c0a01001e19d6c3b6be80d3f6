@@ -1,0 +1,12 @@
+package com.tech;
+
+import java.lang.module.Configuration;
+
+public class Test {
+	
+	
+	public static void main(String[] args) {
+		Confuguration confuguration=new Configuration();
+	}
+
+}

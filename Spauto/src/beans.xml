@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+	
+
+	<bean id="k" class="com.tech.kabadi">
+	<property name="name" value="Anup kumar"></property>
+	</bean>
+	
+	<bean id="a" class="com.tech.team">
+	<property name="teamn" value="Mumbai"></property>
+	</bean>
+	
+	<bean id="a1" class="com.tech.team">
+	<property name="teamn" value="RCB"></property>
+	</bean>
+	
+	
+	<bean id="c" class="com.tech.cricket">
+	<property name="name" value="virat"></property>
+	</bean>
+	
+</beans>

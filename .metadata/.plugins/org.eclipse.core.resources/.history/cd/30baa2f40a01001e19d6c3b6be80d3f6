@@ -1,0 +1,28 @@
+package com.tech;
+
+import java.lang.module.Session
+import java.lang.module.SessionFactory
+import java.lang.module.Configuration;
+
+public class Test {
+	
+	
+	public static void main(String[] args) {
+		Configuration configuration=new Configuration();
+		configuration.configure("hibernate-cfg.xml");
+		
+		SessionFactory sessionFactory = configuration.buildSessionFactory();
+		Session session=sessionFactory.openSession();
+		
+		Employee e1 = new Employee();
+		e1.setId(1);
+		e1.setName("shubham");
+		
+		session.save(e1);
+		
+		session.beginTransaction().commit();
+		
+
+	}
+
+}

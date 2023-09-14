@@ -1,0 +1,11 @@
+package com.tech;
+
+public class a {
+
+	 
+	private void m1()
+	{ 
+	 System.out.println("m1-a"); 
+	 } 
+	
+}

@@ -1,0 +1,18 @@
+package com.tech;
+
+import java.io.IOException;
+
+
+public class Jspservlet extends HttpServlet{
+	
+	public Jspservlet() {
+System.out.println("inside login servelt cons");
+	}
+	
+	
+	
+	}
+
+
+
+

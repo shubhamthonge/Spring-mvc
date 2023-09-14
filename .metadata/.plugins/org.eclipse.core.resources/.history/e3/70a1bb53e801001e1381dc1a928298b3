@@ -1,0 +1,27 @@
+package com.tech;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Result {
+
+	public static void main(String[] args) {
+	Configuration cfg=new Configuration();
+	cfg.configure("hibernate.cfg.xml");
+	
+	SessionFactory sessionFactory = cfg.buildSessionFactory ();
+	Session session=sessionFactory.openSession();
+	
+	player s1 = new player();
+	s1.setAge(35);
+	s1.setName("Rohit");
+	s1.setTeam("Mumbai");
+	session.save(s1);
+	
+	session.beginTransaction().commit();
+	
+
+	}
+
+}

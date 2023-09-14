@@ -1,0 +1,10 @@
+package com.tech;
+
+public class jspservlet extends HttpServlet{
+
+	public jspservlet() {
+		System.out.println("inside jspservlet constr ");
+	}
+	
+
+}
