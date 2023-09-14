@@ -18,6 +18,7 @@ public class create {
 		ModelAndView mav=new ModelAndView("create susscesfully");
 		mav.addObject("eid",id);
 		mav.addObject("ename",name);
+		System.out.println("jfdsxcvbn");
 		return mav;
 	}
 }
